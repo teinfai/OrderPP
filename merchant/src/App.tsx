@@ -1,13 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import AppRoutes from '../src/routes/AppRoutes';
 
-function App() {
-  return (
-     <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  );
-}
+
+const App: React.FC = () => {
+  return <AppRoutes />;
+};
 
 export default App;
