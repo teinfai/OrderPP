@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function Login() {
+export default function Dashboard() {
 //   const [email, setEmail] = useState("");
 //   const [password, setPassword] = useState("");
 //   const [submitting, setSubmitting] = useState(false);
@@ -31,6 +31,10 @@ export default function Login() {
 //   }
 
   return (
-    <h2>Dashbaord</h2>
+    <div className="max-w-sm mx-auto mt-24 p-6 border border-gray-200 rounded-lg shadow-sm bg-white">
+    <h2 className="text-2xl font-semibold mb-4 text-gray-800">Sign in</h2>
+
+
+  </div>
   );
 }

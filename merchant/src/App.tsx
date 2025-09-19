@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import AppRoutes from '../src/routes/AppRoutes';
+import AppRoutes from './Routes/AppRoutes';
 
 
 const App: React.FC = () => {
